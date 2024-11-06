@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Reports\Controller\Adminhtml\Report\Product\ExportSoldExcel"
+                type="Aware\FixReports\Controller\Adminhtml\Report\Product\ExportSoldExcel"/>
+    <preference for="Magento\Reports\Controller\Adminhtml\Report\Product\ExportSoldCsv"
+                type="Aware\FixReports\Controller\Adminhtml\Report\Product\ExportSoldCsv"/>
+</config>
